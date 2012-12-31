@@ -12,8 +12,16 @@
 		<![endif]-->
 	</head>
 	<body>
-		Hello World
+		<!--
+		  Ideally these elements aren't created until it's confirmed that the 
+		  client supports video/camera, but for the sake of illustrating the 
+		  elements involved, they are created with markup (not JavaScript)
+		-->
+		<video id="video" width="640" height="480" autoplay></video>
+		<button id="snap">Snap Photo</button>
+		<canvas id="canvas" width="640" height="480"></canvas>
 		
 		<script src="lib/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/cameracapture.js" type="text/javascript"></script>
 	</body>
 </html>

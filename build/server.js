@@ -12,7 +12,7 @@ function CameraCaptureApplication( ) {
 	//-----------------------------------------------------------------------------------------------
 	
 	// directories to route
-	this.ROUTE_DIRECTORIES = [ 'lib' ];
+	this.ROUTE_DIRECTORIES = [ 'js', 'lib' ];
 	
 	// file name of index page
 	this.INDEX_FILE_NAME = 'index.html';
